@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:padding="@dimen/gal_img_margin">
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/img_gal_1"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+        <ImageView
+            android:id="@+id/img_gal_2"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+
+        <ImageView
+            android:id="@+id/img_gal_3"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+        <ImageView
+            android:id="@+id/img_gal_4"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+
+        <ImageView
+            android:id="@+id/img_gal_5"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_toEndOf="@id/ll_left">
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_margin="@dimen/gal_img_margin"-->
+            <!--android:text="@string/external_storage"-->
+            <!--/>-->
+
+        <ImageView
+            android:id="@+id/img_gal_6"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+
+        <ImageView
+            android:id="@+id/img_gal_7"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+        <ImageView
+            android:id="@+id/img_gal_8"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+        <ImageView
+            android:id="@+id/img_gal_9"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+
+        <ImageView
+            android:id="@+id/img_gal_10"
+            android:layout_width="@dimen/gal_img_size"
+            android:layout_height="@dimen/gal_img_size"
+            android:layout_margin="@dimen/gal_img_margin" />
+    </LinearLayout>
+
+
+</RelativeLayout>

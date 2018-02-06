@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:isScrollContainer="true">
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:layout_margin="@dimen/gal_img_margin"
+        android:src="@drawable/image1"
+        />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:layout_margin="@dimen/gal_img_margin"
+        android:src="@drawable/image2" />
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:src="@drawable/image3"
+        android:layout_margin="@dimen/gal_img_margin"/>
+
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:src="@drawable/image4"
+        android:layout_margin="@dimen/gal_img_margin"/>
+
+    <ImageView
+        android:id="@+id/img_5"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:src="@drawable/image5"
+        android:layout_margin="@dimen/gal_img_margin"/>
+
+</LinearLayout>

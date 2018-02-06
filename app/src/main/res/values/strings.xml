@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IntExt</string>
+    <string name="internal_storage">Internal Storage</string>
+    <string name="capture">Capture</string>
+    <string name="drawable">Select</string>
+    <string name="show">Show</string>
+    <string name="clear_all">Clear All Images</string>
+    <string name="str_internal_storage">Internal Storage</string>
+    <string name="external_storage">External Storage</string>
+</resources>

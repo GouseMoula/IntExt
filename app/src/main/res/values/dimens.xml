@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_size">200dp</dimen>
+    <dimen name="top_margin">16dp</dimen>
+    <dimen name="gal_img_size">140dp</dimen>
+    <dimen name="gal_img_margin">6dp</dimen>
+    <dimen name="text_margin">30dp</dimen>
+    <dimen name="top_margin_ll">10dp</dimen>
+</resources>

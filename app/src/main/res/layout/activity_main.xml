@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="compindia.intext.MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkbox_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/internal_storage"
+        android:layout_marginTop="@dimen/top_margin"/>
+
+    <ImageView
+        android:id="@+id/img_Main_View"
+        android:layout_width="@dimen/img_size"
+        android:layout_height="@dimen/img_size"
+        android:layout_below="@id/checkbox_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_margin"/>
+
+    <Button
+        android:id="@+id/btn_Capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_Main_View"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/capture"
+        />
+
+    <Button
+        android:id="@+id/btn_Select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Capture"
+        android:layout_centerHorizontal="true"
+        android:text="@string/drawable"
+        />
+    <Button
+        android:id="@+id/btn_Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_Select"
+        android:layout_centerHorizontal="true"
+        android:text="@string/show"
+        />
+
+</RelativeLayout>
